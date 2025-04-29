@@ -1,16 +1,128 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spirited Away</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 1rem 0;
+        }
+        section {
+            background: #fff;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+        }
+        aside {
+            background: #ffeb3b;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <header>
+        <h1>Spirited Away</h1>
+    </header>
+
+    <nav>
+        <a href="#actor" id="nav-actor">Actors</a>
+        <a href="#quote" id="nav-quote">Quotes</a>
+    </nav>
+
+    <div class="container">
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>
+                During her family's move to the suburbs, a sullen 10-year-old girl named Chihiro
+                wanders into a world ruled by gods, witches, and spirits, and where humans are
+                changed into beasts. When her parents are magically transformed into pigs,
+                Chihiro must take a job working at a bathhouse for spirits to find a way to
+                free herself and her parents and return to the human world. Along the way, she
+                encounters mysterious allies and dangerous adversaries, learning valuable lessons
+                about courage, identity, and environmentalism.
+            </p>
+        </section>
+
+        <section id="actor">
+            <h2>Actors</h2>
+            <p>Some of the main voice actors in Spirited Away include:</p>
+            <ul>
+                <li>Rumi Hiiragi (Japanese voice of Chihiro/Sen)</li>
+                <li>Daveigh Chase (English voice of Chihiro/Sen)</li>
+                <li>Miyu Irino (Japanese voice of Haku)</li>
+                <li>Jason Marsden (English voice of Haku)</li>
+                <li>Mari Natsuki (Japanese voice of Yubaba/Zeniba)</li>
+                <li>Suzanne Pleshette (English voice of Yubaba/Zeniba)</li>
+                <li>Bunta Sugawara (Japanese voice of Kamaji)</li>
+                <li>David Ogden Stiers (English voice of Kamaji)</li>
+            </ul>
+        </section>
+
+        <section id="quote">
+            <h2>Quote</h2>
+            <p>One of my favorite quotes from the movie is:</p>
+            <blockquote>
+                "Once you've met someone, you never really forget them. It just takes a while for your memories to return." - Zeniba
+            </blockquote>
+        </section>
+
+        <aside>
+            <h3>Movie Details</h3>
+            <p>IMDb Rating: 8.6/10</p>
+            <p>Release Date (Japan): July 20, 2001</p>
+        </aside>
+    </div>
+
+    <footer>
+        <p>Produced by: Toshio Suzuki</p>
+    </footer>
 
 </body>
-
 </html>
