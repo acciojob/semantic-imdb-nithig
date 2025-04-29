@@ -63,6 +63,17 @@
         h2 {
             color: #4CAF50;
         }
+        /* Style for the details/summary if needed */
+        details {
+            margin-top: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -79,15 +90,17 @@
     <div class="container">
         <section id="summary">
             <h2>Summary</h2>
-            <p>
-                During her family's move to the suburbs, a sullen 10-year-old girl named Chihiro
-                wanders into a world ruled by gods, witches, and spirits, and where humans are
-                changed into beasts. When her parents are magically transformed into pigs,
-                Chihiro must take a job working at a bathhouse for spirits to find a way to
-                free herself and her parents and return to the human world. Along the way, she
-                encounters mysterious allies and dangerous adversaries, learning valuable lessons
-                about courage, identity, and environmentalism.
-            </p>
+            <details>
+                <summary>
+                    During her family's move to the suburbs, a sullen 10-year-old girl named Chihiro
+                    wanders into a world ruled by gods, witches, and spirits, and where humans are
+                    changed into beasts. When her parents are magically transformed into pigs,
+                    Chihiro must take a job working at a bathhouse for spirits to find a way to
+                    free herself and her parents and return to the human world. Along the way, she
+                    encounters mysterious allies and dangerous adversaries, learning valuable lessons
+                    about courage, identity, and environmentalism.
+                </summary>
+                </details>
         </section>
 
         <section id="actor">
